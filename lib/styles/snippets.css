@@ -1,1 +1,1 @@
-.buttons button{width:40%}
+.buttons button{width:40%}.callout[data-callout=healer]{--callout-color:52,235,73;--callout-icon:heart}.callout[data-callout=tank]{--callout-color:52,64,235;--callout-icon:shield-half}
