@@ -127,7 +127,11 @@
                         name="q"
                         placeholder="search..." 
                         aria-label="search..."
+                        autofocus
 						required/>
+						<button type="submit" class="search__button"><span>
+						  Submit</span>
+						</button>
                   </form> 
             </div>
          </div>
@@ -151,124 +155,52 @@
       </div>
       <div class="entry-wrapper content__entry">
          <form 
-				action="javascript:void(0);" 
-				class="search-page-form" 
-				onsubmit="return false;">
+				action="https://weyway.github.io/search.html" 
+				class="search-page-form">
 				<input
 					type="search"
-					id="live-search-input"
+					name="q"
 					placeholder="search..."
 					class="search-page-input"
-					required />
+					required/>
+					<button type="submit" class="search-page-button"><span>
+					  Submit</span>
+					</button>
 			</form>
-	
 			<div id="search-results"></div>
-	
-			<script src="https://weyway.github.io/media/plugins/staticFuzzySearch/fuse.js"></script>
 			<script>
-				(async function () {
-					const searchInput = document.getElementById("live-search-input");
-					const resultsContainer = document.getElementById("search-results");
-	
-					// Get URL query param
-					const params = new URLSearchParams(window.location.search);
-					const searchTermFromURL = params.get("q") || "";
-	
-					// Fetch data
-					const response = await fetch("./feed.json");
-					const jsonData = await response.json();
-					const items = jsonData.items;
-	
-					const fuse = new Fuse(items, {
-						keys: ["title", "summary", "tags"],
-						isCaseSensitive: false,
-						includeScore: true,
-						includeMatches: true,
-						findAllMatches: false,
-						minMatchCharLength: 3,
-						shouldSort: true,
-						ignoreLocation: true,
-						ignoreDiacritics: false,
-						useExtendedSearch: false,
-						threshold: 0.3,
-						location: 0,
-						fieldNormWeight: 1,
-						ignoreFieldNorm: false,
-						distance: 10000
-					});
-
-					function highlightMatches(text, matches, key) {
-						if (!matches) return text;
-
-						let match = matches.find(m => m.key === key);
-						if (!match) return text;
-
-						let offset = 0;
-						let highlighted = text;
-
-						match.indices.forEach(([start, end]) => {
-							const realStart = start + offset;
-							const realEnd = end + offset + 1;
-
-							const original = highlighted.slice(realStart, realEnd);
-							const replacement = "<mark>" + original + "</mark>";
-							
-							highlighted = highlighted.slice(0, realStart) + replacement + highlighted.slice(realEnd);
-
-							offset += "<mark></mark>".length;
-						});
-
-						return highlighted;
-					}
-
-					function renderResults(results) {
-						resultsContainer.innerHTML = "";
-	
-						if (results.length === 0) {
-							resultsContainer.innerHTML = "<p>No Results Found</p>";
-							return;
-						}
-	
-						results.forEach(result => {
-							const item = result.item;
-							const title = highlightMatches(item.title || "", result.matches, "title");
-							const summary = highlightMatches(item.summary || "", result.matches, "summary");
-
-							const url = item.url || "#";
-	
-							const resultHTML = `
-								<div class="search-result-item">
-									<h5><a href="${url}">${title}</a></h5>
-									<p>${summary}</p>
-								</div>
-							`;
-							resultsContainer.innerHTML += resultHTML;
-						});
-					}
-	
-					function performSearch(term) {
-						if (term.length < 2) {
-							resultsContainer.innerHTML = "";
-							return;
-						}
-						history.replaceState(null, "", "?q=" + encodeURIComponent(term));
-
-						const results = fuse.search(term);
-						renderResults(results);
-					}
-	
-					// Live input
-					searchInput.addEventListener("input", (e) => {
-						const term = e.target.value.trim();
-						performSearch(term);
-					});
-	
-					// If search term exists in URL, trigger search
-					if (searchTermFromURL) {
-						searchInput.value = searchTermFromURL;
-						performSearch(searchTermFromURL);
-					}
-				})();
+			(async function () {
+				console.log("./feed.json");
+				console.log("q");
+			  
+				let url = "./feed.json";
+				let response = await fetch(url);
+				let jsonData = await response.json();
+			  
+				const params = new URLSearchParams(window.location.search)
+				let searchTerm = params.get("q");
+				let results = [];
+			  
+				jsonData.items.forEach((item) => {
+				  let title = item.title.toLowerCase();
+				  let summary = item.summary.toLowerCase();
+				  let url = item.url;
+			  
+				  if (title.includes(searchTerm.toLowerCase()) || summary.includes(searchTerm.toLowerCase())) {
+					results.push(item);
+				  }
+				});
+			  
+				let elm = document.querySelector("#search-results");
+				if (results.length > 0) {
+				  results.forEach((result)=>{
+					console.log(result);
+					elm.innerHTML += '<h5><a href="'+ result.url +'">' + result.title + '</a></h5><p>' + result.summary + '</p>'
+				  });
+				} else {
+				  elm.innerHTML = '<p>No Results Found</p>';
+				}
+			  })();						
 			</script>  
       </div>
    </div>
