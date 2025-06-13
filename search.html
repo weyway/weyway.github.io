@@ -184,7 +184,7 @@
 						isCaseSensitive: false,
 						includeScore: true,
 						includeMatches: true,
-						findAllMatches: true,
+						findAllMatches: false,
 						minMatchCharLength: 2,
 						shouldSort: true,
 						ignoreLocation: true,
@@ -194,7 +194,7 @@
 						location: 0,
 						fieldNormWeight: 1,
 						ignoreFieldNorm: false,
-						distance: 100
+						distance: 10000
 					});
 
 					function highlightMatches(text, matches, key) {
