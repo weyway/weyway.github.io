@@ -2387,6 +2387,6 @@ textarea {
   border-radius: 3px;
 }
 
-#mark{
+mark{
     background-color: var(--highlight-color);
     }
