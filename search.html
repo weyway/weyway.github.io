@@ -256,13 +256,14 @@
 							`;
 							resultsContainer.innerHTML += resultHTML;
 						});
-
-  resultsContainer.querySelectorAll("mark").forEach((el) => {
-    el.style.backgroundColor = "transparent";
-    el.style.color = "inherit";
-    el.style.fontWeight = "inherit";
-  });
-}
+                        setTimeout(() => {
+		const marks = resultsContainer.querySelectorAll("mark");
+		for (const el of marks) {
+			el.style.backgroundColor = "transparent";
+			el.style.color = "inherit";
+			el.style.fontWeight = "inherit";
+		}
+	}, 0);
 					}
 	
 					function performSearch(term) {
