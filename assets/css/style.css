@@ -2387,6 +2387,6 @@ textarea {
   border-radius: 3px;
 }
 
-#search-results mark{
+#search-results-item mark{
     background-color: transparent !important;
     }
