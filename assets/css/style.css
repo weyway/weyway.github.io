@@ -2388,5 +2388,5 @@ textarea {
 }
 
 mark{
-    background-color: var(--highlight-color);
+    background-color: transparent !important;
     }
