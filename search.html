@@ -223,11 +223,11 @@
 							const realEnd = end + offset + 1;
 
 							const original = highlighted.slice(realStart, realEnd);
-							const replacement = "<mark style="background-color: transparent;">" + original + "</mark>";
+							const replacement = "<mark>" + original + "</mark>";
 							
 							highlighted = highlighted.slice(0, realStart) + replacement + highlighted.slice(realEnd);
 
-							offset += "<mark style="background-color: transparent;"></mark>".length;
+							offset += "<mark></mark>".length;
 						});
 
 						return highlighted;
