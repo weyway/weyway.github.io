@@ -36,7 +36,7 @@
           <link rel="preload" href="https://weyway.github.io/assets/dynamic/fonts/quicksand/quicksand.woff2" as="font" type="font/woff2" crossorigin>
         
             <link rel="preload" href="https://weyway.github.io/assets/dynamic/fonts/comfortaa/comfortaa.woff2" as="font" type="font/woff2" crossorigin>
-        <link rel="stylesheet" href="https://weyway.github.io/assets/css/style.css?v=c51d25f6b7f5542722a752e34055f56f">
+        <link rel="stylesheet" href="https://weyway.github.io/assets/css/style.css?v=6ea0aadd4c3272ad8ff0b404102726c7">
         <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://weyway.github.io/zodiac-weapons/"},"headline":"Zodiac Weapons (A Realm Reborn)","datePublished":"2024-05-12T00:00+01:00","dateModified":"2025-06-21T04:56+01:00","image":{"@type":"ImageObject","url":"https://weyway.github.io/media/website/weyway.png","height":143,"width":227},"description":"Lore Eorzea has witnessed a resurgence of the old ways in recent days, as adventurers the realm over take up the ancient trades of warrior and dragoon, bard and black mage, and more. Now, it is the traditional weaponry of these old mantles that are&hellip;","author":{"@type":"Person","name":"W'eylyn Mavourneen","url":"https://weyway.github.io/authors/weylyn-mavourneen/"},"publisher":{"@type":"Organization","name":"W'eylyn Mavourneen","logo":{"@type":"ImageObject","url":"https://weyway.github.io/media/website/weyway.png","height":143,"width":227}}}</script>
         <noscript>
             <style>
@@ -1893,6 +1893,8 @@
 
             </footer>
       </article>
+        <button id="toggle-toc" aria-label="Toggle Table of Contents">☰ TOC</button>
+        
         <aside class="post-toc">
           <nav id="sidebar-toc">
             <h2>Contents</h2>
@@ -1980,8 +1982,7 @@
           </script>
         
         
-        </aside>
-        </div>
+        </aside>        </div>
 
             <div class="content__related related">
                <div class="wrapper">
@@ -2020,6 +2021,11 @@
 
 
 </main>
+<script>
+document.getElementById('toggle-toc').addEventListener('click', () => {
+  document.querySelector('.post-toc').classList.toggle('active');
+});
+</script>
 <footer class="footer 
 footer--glued">
     <div class="wrapper">
