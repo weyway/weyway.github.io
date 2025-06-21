@@ -2434,5 +2434,8 @@ textarea {
 
 .navbar .navbar__toggle{
     background-color: var(--headings-color);
-    color: var(--page-bg);
+}
+
+.navbar .navbar__toggle-inner, .navbar .navbar__toggle-inner::before, .navbar .navbar__toggle-inner::after{
+    background-color: var(--page-bg);
 }
