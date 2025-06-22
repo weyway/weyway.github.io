@@ -1,14 +1,12 @@
-console.log('map-init.js loaded');
 document.addEventListener("DOMContentLoaded", function () {
   var maps = document.querySelectorAll('.leaflet-map');
 
   maps.forEach(function(mapEl) {
     var id = mapEl.id;
     var imageUrl = mapEl.dataset.image;
-
-    // Parse bounds, expects "x1,y1,x2,y2"
-    var boundsArr = mapEl.dataset.bounds.split(',').map(Number);
-    var bounds = [[boundsArr[1], boundsArr[0]], [boundsArr[3], boundsArr[2]]]; // Leaflet uses [lat, lng]
+    
+    var boundsArr = mapEl.dataset.bounds.split(',').map(Number); // [x1,y1,x2,y2]
+    var bounds = [[boundsArr[1], boundsArr[0]], [boundsArr[3], boundsArr[2]]]; // Leaflet wants [[y1,x1], [y2,x2]]
 
     var markersData = [];
     try {
@@ -30,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
       var icon = L.icon({
         iconUrl: marker.icon,
         iconSize: [32, 32],
-        iconAnchor: [16, 32],
+        iconAnchor: [16, 32]
       });
 
       L.marker(marker.pos, {icon: icon}).addTo(map)
