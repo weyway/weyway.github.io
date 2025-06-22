@@ -11,6 +11,19 @@
     },
     "items": [
         {
+            "id": "https://weyway.github.io/occult-crescent/",
+            "url": "https://weyway.github.io/occult-crescent/",
+            "title": "Occult Crescent",
+            "content_html": "<div id=\"map1\" class=\"leaflet-map\" style=\"height: 400px;\" data-image=\"/assets/maps/occult/blankoccult.png\" data-bounds=\"0,0,1000,1000\" data-markers=\"[\n    {&quot;pos&quot;:[500,500], &quot;icon&quot;:&quot;/assets/maps/occult/markers/marker-fate.png&quot;, &quot;popup&quot;:&quot;Game location marker&quot;},\n    {&quot;pos&quot;:[300,700], &quot;icon&quot;:&quot;/assets/maps/occult/markers/marker-other.png&quot;, &quot;popup&quot;:&quot;Another spot&quot;}\n  ]\"></div>",
+            "author": {
+                "name": "W&#x27;eylyn Mavourneen"
+            },
+            "tags": [
+            ],
+            "date_published": "2025-06-22T01:53:17+01:00",
+            "date_modified": "2025-06-22T02:27:04+01:00"
+        },
+        {
             "id": "https://weyway.github.io/producers-live-letter-87/",
             "url": "https://weyway.github.io/producers-live-letter-87/",
             "title": "Producer&#x27;s Live Letter 87",
