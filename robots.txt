@@ -1,7 +1,7 @@
-User-agent: ChatGPT-User
+.com.comUser-agent: ChatGPT-User
 Disallow: /
 User-agent: GPTBot
 Disallow: /
 User-agent: *
 Disallow:
-Sitemap: https://weyway.github.io/sitemap.xml
+Sitemap: https://weyway.com/sitemap.xml
