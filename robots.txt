@@ -1,4 +1,4 @@
-.com.comUser-agent: ChatGPT-User
+User-agent: ChatGPT-User
 Disallow: /
 User-agent: GPTBot
 Disallow: /

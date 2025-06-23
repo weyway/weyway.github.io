@@ -2439,3 +2439,97 @@ textarea {
 .navbar .navbar__toggle-inner, .navbar .navbar__toggle-inner::before, .navbar .navbar__toggle-inner::after{
     background-color: var(--page-bg);
 }
+
+
+/* LEAFLET MAP */
+
+/* Container */
+.leaflet-control-layers {
+  box-shadow: none;
+  border: none;
+  background: var(--page-bg);
+  border-radius: 4px;
+  
+}
+
+/* Header toggle button (the little layers icon) */
+.leaflet-control-layers-toggle {
+  background-image: none;
+  padding: 0.5em;
+}
+
+/* Expanded list */
+.leaflet-control-layers-list {
+  padding: 0.75em;
+  max-height: 260px;
+  overflow-y: auto;
+  background: var(--page-bg) !important;
+  color: var(--headings-color) !important;
+}
+
+.leaflet-control-layers-expanded{
+    padding: 0em !important;
+    
+}
+
+/* Scrollbar styling */
+.leaflet-control-layers-list::-webkit-scrollbar {
+  width: 6px;
+}
+.leaflet-control-layers-list::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
+
+/* Each layer entry */
+.leaflet-control-layers-list label {
+  display: flex;
+  align-items: center;
+  margin: 0.5em;
+  cursor: pointer;
+  color: var(--headings-color) !important;
+    padding: 2px !important;
+}
+
+/* Hover effect on labels */
+.leaflet-control-layers-list label:hover,
+.leaflet-control-layers label:hover {
+  background-color: var(--logo-color);
+  color: black;
+  border-radius: 4px;
+  padding: 2px !important;
+  color: var(--page-bg) !important;
+}
+
+/* Inputs (checkbox/radio) */
+.leaflet-control-layers-selector input,
+.leaflet-control-layers input[type="checkbox"],
+.leaflet-control-layers input[type="radio"] {
+  width: 16px !important;
+  height: 16px !important;
+  margin-right: 0.5em !important;
+  accent-color: var(--headings-color) !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  position: relative;
+  z-index: 10;
+}
+
+/* Text label */
+.leaflet-control-layers-name {
+  flex: 1;
+  line-height: 1.2;
+}
+
+/* Container */
+.leaflet-container {
+    z-index:0;
+    background: var(--page-bg) !important;
+}
+
+/* Coords */
+
+.coords-control{
+ background-color: var(--page-bg);
+ padding: 5px;
+}
