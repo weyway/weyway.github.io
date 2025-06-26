@@ -1,0 +1,932 @@
+{
+    "bounds": [[1, 1],[42, 41.5]],
+    "baseLayers": [
+        {"name":"Occult",
+         "image":"/assets/maps/occult/blankoccult.png",
+            "enabled":true
+        }
+    ],
+    "overlays": [
+        {
+            "name": "Demiatma",
+            "image": "/assets/maps/occult/layers/demiatma_zonelayer.png",
+            "enabled": true
+        }
+    ],
+    "layerGroups": [
+        {
+            "name": "Fates & CEs",
+            "subgroups":[
+                {
+                    "name": "Fates",
+                    "enabled":true,
+                    "markers": [
+                        {
+                            "pos": [14.1,34.5],
+                            "icon": "/assets/maps/occult/markers/marker-fate.png",
+                            "popup": "A Delicate Balance",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [20.1,32.7],
+                            "icon": "/assets/maps/occult/markers/marker-fate.png",
+                            "popup": "A Prying Eye",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [17,22.3],
+                            "icon": "/assets/maps/occult/markers/marker-fate.png",
+                            "popup": "An Unending Duty",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [20.6,15.1],
+                            "icon": "/assets/maps/occult/markers/marker-fate.png",
+                            "popup": "Brain Drain",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [22.9,27],
+                            "icon": "/assets/maps/occult/markers/marker-fate.png",
+                            "popup": "Fatal Allure",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [17,26.5],
+                            "icon": "/assets/maps/occult/markers/marker-fate.png",
+                            "popup": "King of the Crescent",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [24.6,34.8],
+                            "icon": "/assets/maps/occult/markers/marker-fate.png",
+                            "popup": "Rough Waters",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [29.6,21],
+                            "icon": "/assets/maps/occult/markers/marker-fate.png",
+                            "popup": "Serving Darkness",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [9.5,27.9],
+                            "icon": "/assets/maps/occult/markers/marker-fate.png",
+                            "popup": "Sworn to Soil",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [28.8,31.2],
+                            "icon": "/assets/maps/occult/markers/marker-fate.png",
+                            "popup": "The Golden Guardian",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [10.4,9.7],
+                            "icon": "/assets/maps/occult/markers/marker-fate.png",
+                            "popup": "The Winged Terror",
+                            "enabled":true
+                        }
+                    ]
+                },
+                {
+                    "name": "Pots",
+                    "enabled":true,
+                    "markers": [
+                        {
+                            "pos": [25.6,17.1],
+                            "icon": "/assets/maps/occult/markers/marker-pot.png",
+                            "popup": "Persistent Pots<br><br>Drops: Notes on Persistent Pots",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [11.9,32],
+                            "icon": "/assets/maps/occult/markers/marker-pot.png",
+                            "popup": "Pleading Pots<br><br>Drops: Notes on Persistent Pots",
+                            "enabled":true
+                        }
+                    ]
+                },
+                {
+                    "name": "CEs",
+                    "enabled":true,
+                    "markers": [
+                        {
+                            "pos": [14.5,37.5],
+                            "icon": "/assets/maps/occult/markers/marker-ce.png",
+                            "popup": "Calamity Bound<br><br>Drops: Voidsent Contract<br>Notes on the Cloister Demon",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [35,16.1],
+                            "icon": "/assets/maps/occult/markers/marker-ce.png",
+                            "popup": "Company of Stone",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [35.1,32.2],
+                            "icon": "/assets/maps/occult/markers/marker-ce.png",
+                            "popup": "Crawling Death",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [22.9,10.5],
+                            "icon": "/assets/maps/occult/markers/marker-ce.png",
+                            "popup": "Cursed Concern<br><br>Drops: Notes on the Trade Tortoise",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [38.8,24.9],
+                            "icon": "/assets/maps/occult/markers/marker-ce.png",
+                            "popup": "Eternal Watch",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [10.1,18.2],
+                            "icon": "/assets/maps/occult/markers/marker-ce.png",
+                            "popup": "Flame of Dusk",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [5.5,26.4],
+                            "icon": "/assets/maps/occult/markers/marker-ce.png",
+                            "popup": "From Times Bygone<br><br>Drops: Notes on the Mythic Idol",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [30.5,14.1],
+                            "icon": "/assets/maps/occult/markers/marker-ce.png",
+                            "popup": "Noise Complaint",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [34,20],
+                            "icon": "/assets/maps/occult/markers/marker-ce.png",
+                            "popup": "On the Hunt<br><br>Drops: Oracle's Soul Shard",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [27.4,35.9],
+                            "icon": "/assets/maps/occult/markers/marker-ce.png",
+                            "popup": "Scourge of the Mind",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [19.1,4.5],
+                            "icon": "/assets/maps/occult/markers/marker-ce.png",
+                            "popup": "Shark Attack<br><br>Drops: Notes on the Nymian Petalodus",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [30.5,28.6],
+                            "icon": "/assets/maps/occult/markers/marker-ce.png",
+                            "popup": "The Black Regiment<br><br>Drops: Ranger's Soul Shard<br>Notes on Black Chocobos",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [33.9,37.5],
+                            "icon": "/assets/maps/occult/markers/marker-ce.png",
+                            "popup": "The Unbridled<br><br>Drops: Berserkers's Soul Shard<br>Notes on the Crescent Berserker",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [13,22.8],
+                            "icon": "/assets/maps/occult/markers/marker-ce.png",
+                            "popup": "Trial by Claw",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [14.5,9.2],
+                            "icon": "/assets/maps/occult/markers/marker-ce.png",
+                            "popup": "With Extreme Prejudice",
+                            "enabled":true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Treasure",
+            "subgroups":[
+                {
+                    "name": "Bronze",
+                    "enabled":true,
+                    "markers": [
+                        {
+                        "pos": [33.8,7.4],
+                        "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                        "popup": "Bronze Treasure",
+                        "enabled": true    
+                        },
+                        {
+                            "pos": [34.6,11.6],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true  
+                        },
+                        {
+                            "pos": [39.1,13.8],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true  
+                        },
+                        {
+                            "pos": [37.3,16.2],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true  
+                        },
+                        {
+                            "pos": [30.6,9],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true  
+                        },
+                        {
+                            "pos":[29,11.9],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[29.1,6.3],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[24.2,9.6],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[19.1,6.9],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[18.6,13.2],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[14.6,13.8],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[12.6,6],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[9.9,4.2],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[6.5,6.9],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[4,7.8],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[28.6,15.7],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[22.6,15.7],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[21.2,24.6],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[18.6,18.6],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[11.7,17.4],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[11.7,10.9],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[8.3,10.2],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[7.5,13.8],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[6.3,17],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[4.4,19.6],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[16.3,24.2],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[12.4,22.1],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[7.2,25.4],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[6.2,23.3],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[30.8,19.8],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[26.4,21.1],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[36,20.3],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[37.8,23.8],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[33.5,23.7],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[27.3,26],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[8.5,29.6],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[6.9,32.7],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[5.8,35.5],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[7.4,37.4],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[8.3,34.3],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[10.5,34],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[14.1,32.4],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[17.9,33.4],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[16.7,37.9],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[22.2,34.3],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[24.6,37],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[26.7,31.6],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[27.4,34.3],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[9.5,37.5],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[30.3,35.3],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[31.5,32.4],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[33.7,33.9],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[38.7,33.2],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[38.2,35.4],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[38.3,30.1],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[13.4,25.2],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[13.2,27.3],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[34.6,28.9],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[21.6,30.2],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[7.1,19.8],
+                            "icon": "/assets/maps/occult/markers/marker-bronze-chest.png",
+                            "popup": "Bronze Treasure",
+                            "enabled": true
+                        }
+                    ]
+                },
+                {
+                    "name": "Silver",
+                    "enabled":true,
+                    "markers": [
+                        {
+                            "pos":[4.8,4.8],
+                            "icon": "/assets/maps/occult/markers/marker-silver-chest.png",
+                            "popup": "Silver Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[5.6,15.1],
+                            "icon": "/assets/maps/occult/markers/marker-silver-chest.png",
+                            "popup": "Silver Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[8,17.5],
+                            "icon": "/assets/maps/occult/markers/marker-silver-chest.png",
+                            "popup": "Silver Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[15.8,28.8],
+                            "icon": "/assets/maps/occult/markers/marker-silver-chest.png",
+                            "popup": "Silver Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[8.3,35.6],
+                            "icon": "/assets/maps/occult/markers/marker-silver-chest.png",
+                            "popup": "Silver Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[32,26.2],
+                            "icon": "/assets/maps/occult/markers/marker-silver-chest.png",
+                            "popup": "Silver Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[35.5,33.5],
+                            "icon": "/assets/maps/occult/markers/marker-silver-chest.png",
+                            "popup": "Silver Treasure",
+                            "enabled": true
+                        },
+                        {
+                            "pos":[36.7,18.8],
+                            "icon": "/assets/maps/occult/markers/marker-silver-chest.png",
+                            "popup": "Silver Treasure",
+                            "enabled": true
+                        }
+                        ]         
+                },
+                {
+                    "name": "Carrots",
+                    "enabled":true,
+                    "markers": [ 
+                    {
+                        "pos": [19.4,5.4],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [11.7,6.6],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [13.8,11.2],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [6,7.6],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [7,12.4],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [10.8,14.3],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [4.4,20.5],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [6.6,23.3],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [12.9,25.2],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [18.4,23.6],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [6.9,28],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [9.9,34.9],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [7.5,35.9],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [5.5,38.8],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [16,38.3],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [26.3,37.5],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [27.3,32.8],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [30.8,32.8],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [36.7,32.2],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [38.3,37.4],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [38.6,17.2],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [38,18.6],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [31,24.4],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [35.2,24],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [36,27],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn",
+                        "enabled": true
+                    },
+                    {
+                        "pos": [27.8,9.3],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn (Unverified)",
+                        "enabled": false
+                    },
+                    {
+                        "pos": [29.3,38.4],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn (Unverified)",
+                        "enabled": false
+                    },
+                    {
+                        "pos": [20.8,37.7],
+                        "icon": "/assets/maps/occult/markers/marker-carrot.png",
+                        "popup": "Carrot Spawn (Unverified)",
+                        "enabled": false
+                    }
+                ]
+                }
+            ]
+        },
+        {
+            "name": "Points of Interest",
+            "subgroups":[
+                {
+                    "name": "Surveys",
+                    "enabled":true,
+                    "markers": [
+                        {
+                            "pos": [31.3,17],
+                            "icon": "/assets/maps/occult/markers/marker.png",
+                            "name":"#7",
+                            "popup": "#7<br><br>The Lost Citadel",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [19.2,13.1],
+                            "icon": "/assets/maps/occult/markers/marker.png",
+                            "name": "#9",
+                            "popup": "#9<br><br>The Vanishing Slope",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [23.2,21.5],
+                            "icon": "/assets/maps/occult/markers/marker.png",
+                            "name":"#12",
+                            "popup": "#12<br><br>Heathcliff",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [10.1,22.5],
+                            "icon": "/assets/maps/occult/markers/marker.png",
+                            "name":"#13",
+                            "popup": "#13<br><br>The Fell Warren",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [24.2,32.9],
+                            "icon": "/assets/maps/occult/markers/marker.png",
+                            "name":"#15",
+                            "popup": "#15<br><br>The Shadowed City",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [18.5,33.8],
+                            "icon": "/assets/maps/occult/markers/marker.png",
+                            "name": "#18",
+                            "popup": "#18<br><br>Eldergrowth",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [15.6,29.5],
+                            "icon": "/assets/maps/occult/markers/marker.png",
+                            "name": "#19",
+                            "popup": "#19<br><br>The Abandoned Ascent",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [36.6,33.7],
+                            "icon": "/assets/maps/occult/markers/marker.png",
+                            "name": "#21",
+                            "popup": "#21<br><br>The Silent Streets",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [36,22.6],
+                            "icon": "/assets/maps/occult/markers/marker.png",
+                            "name": "#22",
+                            "popup": "#22<br><br>The Ancient Stoneworks",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [3.7,5.8],
+                            "icon": "/assets/maps/occult/markers/marker.png",
+                            "name": "#23",
+                            "popup": "#23<br><br>The Wanderer's Haven",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [8.7,35.8],
+                            "icon": "/assets/maps/occult/markers/marker.png",
+                            "name": "#24",
+                            "popup": "#24<br><br>The Brazier",
+                            "enabled":true
+                        }
+                    ]
+                },
+                {
+                    "name": "Aetheryte",
+                    "enabled":true,
+                    "markers": [
+                        {
+                            "pos": [38,7.5],
+                            "icon": "/assets/maps/occult/markers/marker-aether.png",
+                            "popup": "Base Camp",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [17.9,9],
+                            "icon": "/assets/maps/occult/markers/marker-aether.png",
+                            "popup": "The Wanderer's Haven",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [14.1,18.8],
+                            "icon": "/assets/maps/occult/markers/marker-aether.png",
+                            "popup": "Crystallized Caverns",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [13.7,27.1],
+                            "icon": "/assets/maps/occult/markers/marker-aether.png",
+                            "popup": "Stonemarsh",
+                            "enabled":true
+                        },
+                        {
+                            "pos": [27.5,27.5],
+                            "icon": "/assets/maps/occult/markers/marker-aether.png",
+                            "popup": "Eldergrowth",
+                            "enabled":true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

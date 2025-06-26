@@ -36,9 +36,11 @@
           <link rel="preload" href="https://weyway.com/assets/dynamic/fonts/quicksand/quicksand.woff2" as="font" type="font/woff2" crossorigin>
         
             <link rel="preload" href="https://weyway.com/assets/dynamic/fonts/comfortaa/comfortaa.woff2" as="font" type="font/woff2" crossorigin>
-        <link rel="stylesheet" href="https://weyway.com/assets/css/style.css?v=4fcae264980393939b5546cc41f18834">
+        <link rel="stylesheet" href="https://weyway.com/assets/css/style.css?v=bd2eceab034905ee7f030bdf57365da5">
         <link rel="stylesheet" href="https://weyway.com/assets/css/leaflet.css" />
-        <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://weyway.com/cosmic-exploration/"},"headline":"Cosmic Exploration","datePublished":"2025-04-24T00:00+01:00","dateModified":"2025-06-17T23:45+01:00","image":{"@type":"ImageObject","url":"https://weyway.com/media/website/weyway.png","height":143,"width":227},"description":"Where to start? Before anything else, i'd like to start with this disclaimer. ⚒️ Work in Progress This guide is very very much a work in progress at this point. Any additional info or tips are highly appreciated. To join in the cosmic exploration, you&hellip;","author":{"@type":"Person","name":"W'eylyn Mavourneen","url":"https://weyway.com/authors/weylyn-mavourneen/"},"publisher":{"@type":"Organization","name":"W'eylyn Mavourneen","logo":{"@type":"ImageObject","url":"https://weyway.com/media/website/weyway.png","height":143,"width":227}}}</script>
+        <link rel="stylesheet" href="https://weyway.com/assets/css/leaflet.groupedlayercontrol.min.css" />
+        <link rel="stylesheet" href="https://weyway.com/assets/css/leaflet-gesture-handling.min.css" />
+        <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://weyway.com/cosmic-exploration/"},"headline":"Cosmic Exploration","datePublished":"2025-04-24T00:00+01:00","dateModified":"2025-06-24T20:17+01:00","image":{"@type":"ImageObject","url":"https://weyway.com/media/website/weyway.png","height":143,"width":227},"description":"Where to start? Before anything else, i'd like to start with this disclaimer. ⚒️ Work in Progress This guide is very very much a work in progress at this point. Any additional info or tips are highly appreciated. To join in the cosmic exploration, you&hellip;","author":{"@type":"Person","name":"W'eylyn Mavourneen","url":"https://weyway.com/authors/weylyn-mavourneen/"},"publisher":{"@type":"Organization","name":"W'eylyn Mavourneen","logo":{"@type":"ImageObject","url":"https://weyway.com/media/website/weyway.png","height":143,"width":227}}}</script>
         <noscript>
             <style>
                 img[loading] {
@@ -79,7 +81,29 @@
 </style>
     </head>
     <body class="post-template">
-        <header class="top js-header">
+        <script>
+document.addEventListener("DOMContentLoaded", function () {
+  var coll = document.getElementsByClassName("collapsible");
+
+  for (var i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+
+      // Get the parent <p> and its next sibling <div class="colcontent">
+      var wrapper = this.closest("p");
+      var content = wrapper ? wrapper.nextElementSibling : null;
+
+      if (content && content.classList.contains("colcontent")) {
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      }
+    });
+  }
+});
+</script><header class="top js-header">
    <a class="logo" href="https://weyway.com/">
          <img src="https://weyway.com/media/website/weyway.png" alt="Weyway ♡" width="227" height="143">
    </a>
@@ -318,16 +342,18 @@
 </div>
 <div class="el-h2">
 <h3 dir="auto" data-heading="What are these?">What are these?</h3>
-<table style="border-collapse: collapse; width: 100%; border-style: none; height: 3351.56px;" border="0" cellspacing="0" cellpadding="0">
+<table style="border-collapse: collapse; width: 100%; height: 4475.39px; border-style: none;" border="0" cellspacing="0" cellpadding="0">
 <tbody>
 <tr style="height: 91.3125px;">
 <td style="width: 100%; border-style: none; height: 91.3125px;" colspan="2">
 <h4>Stelar Missions</h4>
 </td>
 </tr>
-<tr style="height: 200.609px;">
-<td style="width: 25.3561%; vertical-align: top; border-style: none; height: 200.609px;" scope="row"><figure class="post__image"><img loading="lazy"  style="margin-bottom: 1.37143rem; margin-right: 1.37143rem; outline: 3px solid rgba(var(--color-primary-rgb), 0.55) !important;" src="https://weyway.com/media/posts/15/btn1.png" alt="" width="254" height="272" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/15/responsive/btn1-xs.png 640w ,https://weyway.com/media/posts/15/responsive/btn1-sm.png 768w ,https://weyway.com/media/posts/15/responsive/btn1-md.png 1024w ,https://weyway.com/media/posts/15/responsive/btn1-lg.png 1366w ,https://weyway.com/media/posts/15/responsive/btn1-xl.png 1600w ,https://weyway.com/media/posts/15/responsive/btn1-2xl.png 1920w"></figure></td>
-<td style="width: 74.6439%; border-style: none; vertical-align: middle; height: 200.609px;" scope="row">These will be the standard requests you will be able to fulfill with each Job.<br>They are similar to normal crafting jobs collectables.<br>These crafting jobs have requirements such as Average Item Level and sometimes even a time limit.</td>
+<tr style="height: 334.703px;">
+<td style="width: 32.4786%; vertical-align: top; border-style: none; height: 334.703px;" scope="row">
+<figure class="post__image"><img loading="lazy"  style="color: #a5a7b7; font-family: sans-serif; font-size: 18px; font-weight: 400; letter-spacing: normal; outline: 3px solid rgba(var(--color-primary-rgb), 0.55) !important;" src="https://weyway.com/media/posts/15/btn1.png" alt="" width="254" height="272" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/15/responsive/btn1-xs.png 640w ,https://weyway.com/media/posts/15/responsive/btn1-sm.png 768w ,https://weyway.com/media/posts/15/responsive/btn1-md.png 1024w ,https://weyway.com/media/posts/15/responsive/btn1-lg.png 1366w ,https://weyway.com/media/posts/15/responsive/btn1-xl.png 1600w ,https://weyway.com/media/posts/15/responsive/btn1-2xl.png 1920w"></figure>
+</td>
+<td style="width: 67.5214%; border-style: none; vertical-align: middle; height: 334.703px;" scope="row">These will be the standard requests you will be able to fulfill with each Job.<br>They are similar to normal crafting jobs collectables.<br>These crafting jobs have requirements such as Average Item Level and sometimes even a time limit.</td>
 </tr>
 <tr style="height: 91.3125px;">
 <td style="width: 100%; border-style: none; height: 91.3125px;" colspan="2">
@@ -336,9 +362,9 @@
 </div>
 </td>
 </tr>
-<tr style="height: 678.031px;">
-<td style="width: 25.3561%; vertical-align: top; border-style: none; height: 678.031px;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/15/btn2-2.png" alt="" width="254" height="272" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/15/responsive/btn2-2-xs.png 640w ,https://weyway.com/media/posts/15/responsive/btn2-2-sm.png 768w ,https://weyway.com/media/posts/15/responsive/btn2-2-md.png 1024w ,https://weyway.com/media/posts/15/responsive/btn2-2-lg.png 1366w ,https://weyway.com/media/posts/15/responsive/btn2-2-xl.png 1600w ,https://weyway.com/media/posts/15/responsive/btn2-2-2xl.png 1920w"></figure></td>
-<td style="width: 74.6439%; border-style: none; vertical-align: middle; height: 678.031px;">
+<tr style="height: 1002.03px;">
+<td style="width: 32.4786%; vertical-align: top; border-style: none; height: 1002.03px;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/15/btn2-2.png" alt="" width="254" height="272" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/15/responsive/btn2-2-xs.png 640w ,https://weyway.com/media/posts/15/responsive/btn2-2-sm.png 768w ,https://weyway.com/media/posts/15/responsive/btn2-2-md.png 1024w ,https://weyway.com/media/posts/15/responsive/btn2-2-lg.png 1366w ,https://weyway.com/media/posts/15/responsive/btn2-2-xl.png 1600w ,https://weyway.com/media/posts/15/responsive/btn2-2-2xl.png 1920w"></figure></td>
+<td style="width: 67.5214%; border-style: none; vertical-align: middle; height: 1002.03px;">
 <div class="el-p">
 <p dir="auto">These will be special missions that spawn at random intervals within the exploration zone.<br>They will show up on the map and players can participate in two ways:</p>
 </div>
@@ -368,9 +394,9 @@
 </div>
 </td>
 </tr>
-<tr style="height: 382.828px;">
-<td style="width: 25.3561%; vertical-align: top; border-style: none; height: 382.828px;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/15/btn3.png" alt="" width="254" height="272" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/15/responsive/btn3-xs.png 640w ,https://weyway.com/media/posts/15/responsive/btn3-sm.png 768w ,https://weyway.com/media/posts/15/responsive/btn3-md.png 1024w ,https://weyway.com/media/posts/15/responsive/btn3-lg.png 1366w ,https://weyway.com/media/posts/15/responsive/btn3-xl.png 1600w ,https://weyway.com/media/posts/15/responsive/btn3-2xl.png 1920w"></figure></td>
-<td style="width: 74.6439%; border-style: none; vertical-align: middle; height: 382.828px;">
+<tr style="height: 463.828px;">
+<td style="width: 32.4786%; vertical-align: top; border-style: none; height: 463.828px;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/15/btn3.png" alt="" width="254" height="272" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/15/responsive/btn3-xs.png 640w ,https://weyway.com/media/posts/15/responsive/btn3-sm.png 768w ,https://weyway.com/media/posts/15/responsive/btn3-md.png 1024w ,https://weyway.com/media/posts/15/responsive/btn3-lg.png 1366w ,https://weyway.com/media/posts/15/responsive/btn3-xl.png 1600w ,https://weyway.com/media/posts/15/responsive/btn3-2xl.png 1920w"></figure></td>
+<td style="width: 67.5214%; border-style: none; vertical-align: middle; height: 463.828px;">
 <div class="el-p">
 <div class="el-p">
 <p dir="auto">Stellar Successes are contribution milestones you can complete. You can receive rewards upon completing these.<br>Think of them like achievements.</p>
@@ -402,9 +428,9 @@
 </div>
 </td>
 </tr>
-<tr style="height: 211.359px;">
-<td style="width: 25.3561%; vertical-align: top; border-style: none; height: 211.359px;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/15/btn4-2.png" alt="" width="254" height="272" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/15/responsive/btn4-2-xs.png 640w ,https://weyway.com/media/posts/15/responsive/btn4-2-sm.png 768w ,https://weyway.com/media/posts/15/responsive/btn4-2-md.png 1024w ,https://weyway.com/media/posts/15/responsive/btn4-2-lg.png 1366w ,https://weyway.com/media/posts/15/responsive/btn4-2-xl.png 1600w ,https://weyway.com/media/posts/15/responsive/btn4-2-2xl.png 1920w"></figure></td>
-<td style="width: 74.6439%; border-style: none; vertical-align: middle; height: 211.359px;">
+<tr style="height: 292.562px;">
+<td style="width: 32.4786%; vertical-align: top; border-style: none; height: 292.562px;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/15/btn4-2.png" alt="" width="254" height="272" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/15/responsive/btn4-2-xs.png 640w ,https://weyway.com/media/posts/15/responsive/btn4-2-sm.png 768w ,https://weyway.com/media/posts/15/responsive/btn4-2-md.png 1024w ,https://weyway.com/media/posts/15/responsive/btn4-2-lg.png 1366w ,https://weyway.com/media/posts/15/responsive/btn4-2-xl.png 1600w ,https://weyway.com/media/posts/15/responsive/btn4-2-2xl.png 1920w"></figure></td>
+<td style="width: 67.5214%; border-style: none; vertical-align: middle; height: 292.562px;">
 <div class="el-p">
 <p dir="auto">As previously mentioned, the Infrastructure Index will be the page that will show you the overall progress of the Exploration Initiative and allow you to review all the unlocked things on the Development Log.<br>You can also view the cinematic for each unlocked step here if you were not online at the time that it was completed.</p>
 </div>
@@ -419,9 +445,9 @@
 </div>
 </td>
 </tr>
-<tr style="height: 346.359px;">
-<td style="width: 25.3561%; vertical-align: top; border-style: none; height: 346.359px;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/15/btn5.png" alt="" width="254" height="272" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/15/responsive/btn5-xs.png 640w ,https://weyway.com/media/posts/15/responsive/btn5-sm.png 768w ,https://weyway.com/media/posts/15/responsive/btn5-md.png 1024w ,https://weyway.com/media/posts/15/responsive/btn5-lg.png 1366w ,https://weyway.com/media/posts/15/responsive/btn5-xl.png 1600w ,https://weyway.com/media/posts/15/responsive/btn5-2xl.png 1920w"></figure></td>
-<td style="width: 74.6439%; border-style: none; vertical-align: middle; height: 346.359px;">
+<tr style="height: 427.359px;">
+<td style="width: 32.4786%; vertical-align: top; border-style: none; height: 427.359px;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/15/btn5.png" alt="" width="254" height="272" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/15/responsive/btn5-xs.png 640w ,https://weyway.com/media/posts/15/responsive/btn5-sm.png 768w ,https://weyway.com/media/posts/15/responsive/btn5-md.png 1024w ,https://weyway.com/media/posts/15/responsive/btn5-lg.png 1366w ,https://weyway.com/media/posts/15/responsive/btn5-xl.png 1600w ,https://weyway.com/media/posts/15/responsive/btn5-2xl.png 1920w"></figure></td>
+<td style="width: 67.5214%; border-style: none; vertical-align: middle; height: 427.359px;">
 <div class="el-p">
 <p dir="auto">Under <strong>Cosmic Research</strong> you will find the data that is gathered during the course of your support to the Initiative.<br>Each job will have a set of analytical tasks that can be completed.<br>Once you have gathered enough data, the <strong>Exotablet</strong> will highlight this for you.<br>This section is all related to the <strong>Cosmic Tools</strong>, which are your crafter and gatherer relic weapons for Dawntrail.<br>As you complete relic weapons, you can complete additional ones making use of the 50% increased research rewards you receive after finishing the first one.</p>
 </div>
@@ -436,9 +462,9 @@
 </div>
 </td>
 </tr>
-<tr style="height: 211.359px;">
-<td style="width: 25.3561%; vertical-align: top; border-style: none; height: 211.359px;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/15/btn6.png" alt="" width="254" height="272" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/15/responsive/btn6-xs.png 640w ,https://weyway.com/media/posts/15/responsive/btn6-sm.png 768w ,https://weyway.com/media/posts/15/responsive/btn6-md.png 1024w ,https://weyway.com/media/posts/15/responsive/btn6-lg.png 1366w ,https://weyway.com/media/posts/15/responsive/btn6-xl.png 1600w ,https://weyway.com/media/posts/15/responsive/btn6-2xl.png 1920w"></figure></td>
-<td style="width: 74.6439%; border-style: none; vertical-align: middle; height: 211.359px;">
+<tr style="height: 292.562px;">
+<td style="width: 32.4786%; vertical-align: top; border-style: none; height: 292.562px;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/15/btn6.png" alt="" width="254" height="272" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/15/responsive/btn6-xs.png 640w ,https://weyway.com/media/posts/15/responsive/btn6-sm.png 768w ,https://weyway.com/media/posts/15/responsive/btn6-md.png 1024w ,https://weyway.com/media/posts/15/responsive/btn6-lg.png 1366w ,https://weyway.com/media/posts/15/responsive/btn6-xl.png 1600w ,https://weyway.com/media/posts/15/responsive/btn6-2xl.png 1920w"></figure></td>
+<td style="width: 67.5214%; border-style: none; vertical-align: middle; height: 292.562px;">
 <div class="el-p">
 <p dir="auto">Here you will be able to see your <strong>Cosmic Class Score</strong> for each job you have used in the Cosmic Exploration.<br>Whenever you complete missions, you will earn points in your chosen class.<br>Reaching certain milestones will earn you achievements and titles.</p>
 </div>
@@ -453,9 +479,9 @@
 </div>
 </td>
 </tr>
-<tr style="height: 175.938px;">
-<td style="width: 25.3561%; vertical-align: top; border-style: none; height: 175.938px;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/15/btn7.png" alt="" width="254" height="272" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/15/responsive/btn7-xs.png 640w ,https://weyway.com/media/posts/15/responsive/btn7-sm.png 768w ,https://weyway.com/media/posts/15/responsive/btn7-md.png 1024w ,https://weyway.com/media/posts/15/responsive/btn7-lg.png 1366w ,https://weyway.com/media/posts/15/responsive/btn7-xl.png 1600w ,https://weyway.com/media/posts/15/responsive/btn7-2xl.png 1920w"></figure></td>
-<td style="width: 74.6439%; border-style: none; vertical-align: middle; height: 175.938px;">
+<tr style="height: 292.562px;">
+<td style="width: 32.4786%; vertical-align: top; border-style: none; height: 292.562px;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/15/btn7.png" alt="" width="254" height="272" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/15/responsive/btn7-xs.png 640w ,https://weyway.com/media/posts/15/responsive/btn7-sm.png 768w ,https://weyway.com/media/posts/15/responsive/btn7-md.png 1024w ,https://weyway.com/media/posts/15/responsive/btn7-lg.png 1366w ,https://weyway.com/media/posts/15/responsive/btn7-xl.png 1600w ,https://weyway.com/media/posts/15/responsive/btn7-2xl.png 1920w"></figure></td>
+<td style="width: 67.5214%; border-style: none; vertical-align: middle; height: 292.562px;">
 <div class="el-p">
 <p dir="auto">For last, you have the Exploration Guide, here you will be able to find information and help about many of the different things regarding Cosmic Exploration.<br>It's your in-game wiki of sorts!</p>
 </div>
@@ -468,18 +494,18 @@
 </div>
 </td>
 </tr>
-<tr style="height: 238.641px;">
-<td style="width: 25.3561%; vertical-align: top; border-style: none; height: 238.641px;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/15/btn8.png" alt="" width="254" height="272" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/15/responsive/btn8-xs.png 640w ,https://weyway.com/media/posts/15/responsive/btn8-sm.png 768w ,https://weyway.com/media/posts/15/responsive/btn8-md.png 1024w ,https://weyway.com/media/posts/15/responsive/btn8-lg.png 1366w ,https://weyway.com/media/posts/15/responsive/btn8-xl.png 1600w ,https://weyway.com/media/posts/15/responsive/btn8-2xl.png 1920w"></figure></td>
-<td style="width: 74.6439%; border-style: none; vertical-align: middle; height: 238.641px;">
+<tr style="height: 292.641px;">
+<td style="width: 32.4786%; vertical-align: top; border-style: none; height: 292.641px;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/15/btn8.png" alt="" width="254" height="272" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/15/responsive/btn8-xs.png 640w ,https://weyway.com/media/posts/15/responsive/btn8-sm.png 768w ,https://weyway.com/media/posts/15/responsive/btn8-md.png 1024w ,https://weyway.com/media/posts/15/responsive/btn8-lg.png 1366w ,https://weyway.com/media/posts/15/responsive/btn8-xl.png 1600w ,https://weyway.com/media/posts/15/responsive/btn8-2xl.png 1920w"></figure></td>
+<td style="width: 67.5214%; border-style: none; vertical-align: middle; height: 292.641px;">
 <div class="el-p">
 <h4 dir="auto" data-heading="Cosmocredits">Cosmocredits</h4>
 <p>Cosmocredits are earned through contributions to the Cosmic Initiative and can be exchanged at the <strong>Credit Exchange</strong> for various supplies and exclusive wares.<br>These are primarily earned through completion of stellar missions.</p>
 </div>
 </td>
 </tr>
-<tr style="height: 175.938px;">
-<td style="width: 25.3561%; vertical-align: top; border-style: none; height: 175.938px;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/15/btn9.png" alt="" width="254" height="272" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/15/responsive/btn9-xs.png 640w ,https://weyway.com/media/posts/15/responsive/btn9-sm.png 768w ,https://weyway.com/media/posts/15/responsive/btn9-md.png 1024w ,https://weyway.com/media/posts/15/responsive/btn9-lg.png 1366w ,https://weyway.com/media/posts/15/responsive/btn9-xl.png 1600w ,https://weyway.com/media/posts/15/responsive/btn9-2xl.png 1920w"></figure></td>
-<td style="width: 74.6439%; border-style: none; vertical-align: middle; height: 175.938px;">
+<tr style="height: 346.641px;">
+<td style="width: 32.4786%; vertical-align: top; border-style: none; height: 346.641px;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/15/btn9.png" alt="" width="254" height="272" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/15/responsive/btn9-xs.png 640w ,https://weyway.com/media/posts/15/responsive/btn9-sm.png 768w ,https://weyway.com/media/posts/15/responsive/btn9-md.png 1024w ,https://weyway.com/media/posts/15/responsive/btn9-lg.png 1366w ,https://weyway.com/media/posts/15/responsive/btn9-xl.png 1600w ,https://weyway.com/media/posts/15/responsive/btn9-2xl.png 1920w"></figure></td>
+<td style="width: 67.5214%; border-style: none; vertical-align: middle; height: 346.641px;">
 <div class="el-p">
 <div class="el-h4">
 <h4 dir="auto" data-heading="Lunar Credits">Lunar Credits</h4>
@@ -583,7 +609,7 @@
                <div class="entry-wrapper">
                         <p class="content__updated">
                            This article was updated on
-                              June 17, 2025
+                              June 24, 2025
                         </p>
 
                      <div class="content__actions">
@@ -743,7 +769,7 @@ footer--glued">
     </div>
 </footer>
 
-<script defer src="https://weyway.com/assets/js/scripts.min.js?v=700105c316933a8202041b6415abb233"></script>
+<script defer src="https://weyway.com/assets/js/scripts.min.js?v=27f7a9b8d323ac5ff30bb6e7568604a9"></script>
 
 <script>window.publiiThemeMenuConfig={mobileMenuMode:'sidebar',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.top'};</script>
 
@@ -875,6 +901,8 @@ zoomSVG: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-line
     </script>
 
 <script src="https://weyway.com/assets/js/leaflet.js" defer></script>
+<script src="https://weyway.com/assets/js/leaflet.groupedlayercontrol.min.js" defer></script>
+<script src="https://weyway.com/assets/js/leaflet-gesture-handling.min.js" defer></script>
 <script src="https://weyway.com/assets/js/map-init.js" defer></script>
 </body>
 </html>

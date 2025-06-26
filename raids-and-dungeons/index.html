@@ -36,8 +36,10 @@
           <link rel="preload" href="https://weyway.com/assets/dynamic/fonts/quicksand/quicksand.woff2" as="font" type="font/woff2" crossorigin>
         
             <link rel="preload" href="https://weyway.com/assets/dynamic/fonts/comfortaa/comfortaa.woff2" as="font" type="font/woff2" crossorigin>
-        <link rel="stylesheet" href="https://weyway.com/assets/css/style.css?v=4fcae264980393939b5546cc41f18834">
+        <link rel="stylesheet" href="https://weyway.com/assets/css/style.css?v=bd2eceab034905ee7f030bdf57365da5">
         <link rel="stylesheet" href="https://weyway.com/assets/css/leaflet.css" />
+        <link rel="stylesheet" href="https://weyway.com/assets/css/leaflet.groupedlayercontrol.min.css" />
+        <link rel="stylesheet" href="https://weyway.com/assets/css/leaflet-gesture-handling.min.css" />
         <script type="application/ld+json">{"@context":"http://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://weyway.com/raids-and-dungeons/"},"headline":"Raids & Dungeons","datePublished":"2025-06-10T21:18+01:00","dateModified":"2025-06-15T07:38+01:00","image":{"@type":"ImageObject","url":"https://weyway.com/media/website/weyway.png","height":143,"width":227},"description":"This section in our discord contains information related to instanced content like raids and dungeons. For the most part it will be dungeons or long form content, as things like savage raids are better suited for video guides rather than walls of text. 🚨 Spoilers!&hellip;","author":{"@type":"Person","name":"W'eylyn Mavourneen","url":"https://weyway.com/authors/weylyn-mavourneen/"},"publisher":{"@type":"Organization","name":"W'eylyn Mavourneen","logo":{"@type":"ImageObject","url":"https://weyway.com/media/website/weyway.png","height":143,"width":227}}}</script>
         <noscript>
             <style>
@@ -62,7 +64,29 @@
 </style>
     </head>
     <body class="page-template">
-        <header class="top js-header">
+        <script>
+document.addEventListener("DOMContentLoaded", function () {
+  var coll = document.getElementsByClassName("collapsible");
+
+  for (var i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+
+      // Get the parent <p> and its next sibling <div class="colcontent">
+      var wrapper = this.closest("p");
+      var content = wrapper ? wrapper.nextElementSibling : null;
+
+      if (content && content.classList.contains("colcontent")) {
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      }
+    });
+  }
+});
+</script><header class="top js-header">
    <a class="logo" href="https://weyway.com/">
          <img src="https://weyway.com/media/website/weyway.png" alt="Weyway ♡" width="227" height="143">
    </a>
@@ -269,7 +293,7 @@
     </div>
 </footer>
 
-<script defer src="https://weyway.com/assets/js/scripts.min.js?v=700105c316933a8202041b6415abb233"></script>
+<script defer src="https://weyway.com/assets/js/scripts.min.js?v=27f7a9b8d323ac5ff30bb6e7568604a9"></script>
 
 <script>window.publiiThemeMenuConfig={mobileMenuMode:'sidebar',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.top'};</script>
 
@@ -313,6 +337,8 @@
     </script>
 
 <script src="https://weyway.com/assets/js/leaflet.js" defer></script>
+<script src="https://weyway.com/assets/js/leaflet.groupedlayercontrol.min.js" defer></script>
+<script src="https://weyway.com/assets/js/leaflet-gesture-handling.min.js" defer></script>
 <script src="https://weyway.com/assets/js/map-init.js" defer></script>
 </body>
 </html>

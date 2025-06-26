@@ -36,8 +36,10 @@
           <link rel="preload" href="https://weyway.com/assets/dynamic/fonts/quicksand/quicksand.woff2" as="font" type="font/woff2" crossorigin>
         
             <link rel="preload" href="https://weyway.com/assets/dynamic/fonts/comfortaa/comfortaa.woff2" as="font" type="font/woff2" crossorigin>
-        <link rel="stylesheet" href="https://weyway.com/assets/css/style.css?v=4fcae264980393939b5546cc41f18834">
+        <link rel="stylesheet" href="https://weyway.com/assets/css/style.css?v=bd2eceab034905ee7f030bdf57365da5">
         <link rel="stylesheet" href="https://weyway.com/assets/css/leaflet.css" />
+        <link rel="stylesheet" href="https://weyway.com/assets/css/leaflet.groupedlayercontrol.min.css" />
+        <link rel="stylesheet" href="https://weyway.com/assets/css/leaflet-gesture-handling.min.css" />
         <script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Weyway ♡","logo":"https://weyway.com/media/website/weyway.png","url":"https://weyway.com/"}</script>
         <noscript>
             <style>
@@ -79,7 +81,29 @@
 </style>
     </head>
     <body class="tag-template">
-        <header class="top js-header">
+        <script>
+document.addEventListener("DOMContentLoaded", function () {
+  var coll = document.getElementsByClassName("collapsible");
+
+  for (var i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+
+      // Get the parent <p> and its next sibling <div class="colcontent">
+      var wrapper = this.closest("p");
+      var content = wrapper ? wrapper.nextElementSibling : null;
+
+      if (content && content.classList.contains("colcontent")) {
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        }
+      }
+    });
+  }
+});
+</script><header class="top js-header">
    <a class="logo" href="https://weyway.com/">
          <img src="https://weyway.com/media/website/weyway.png" alt="Weyway ♡" width="227" height="143">
    </a>
@@ -237,7 +261,7 @@
             <div class="wrapper">           
                <h1>
                   FFXIV
-                  <sup>(6)</sup>
+                  <sup>(7)</sup>
                </h1>
                      <div class="page__desc"><p>Final Fantasy XIV</p></div>
             </div>
@@ -324,6 +348,33 @@
                      </header>               
                         <p>This is the first one that I'll be doing in this format, unfortunately, most of this was already announced on the last Producer's Live Letter. If you missed that one, you can find it in discord, linked above this one. Visit here If you want&hellip;</p>
                         <a href="https://weyway.com/producers-live-letter-86/" class="readmore feed__readmore">
+                           Continue reading...</a>
+                  </div>
+               </article>
+               <article class="feed__item ">
+                  <div class="feed__content">
+                     <header>
+                           <div class="feed__meta">
+                                          <img
+                                             src="https://weyway.com/media/website/xd-2.png" 
+                                              loading="lazy"
+                                             height="720"
+                                             width="720"      
+                                             class="feed__author-thumb"
+                                             alt="">
+                                    <a href="https://weyway.com/authors/weylyn-mavourneen/" class="feed__author">W&#x27;eylyn Mavourneen</a>
+                                    <time datetime="2025-06-26T04:42" class="feed__date">
+                                          June 26, 2025
+                                    </time>
+                           </div>
+                        <h2 class="feed__title">
+                           <a href="https://weyway.com/occult-crescent/">
+                              Occult Crescent
+                           </a>
+                        </h2>
+                     </header>               
+                        <p>Even the most dauntless of sailors would sooner abandon ship than steer into Shades' Triangle. Be not fooled by the lush and fertile island you spy on the horizon─men and vessels alike have been lost to its allure, never to be seen again. Yes, the&hellip;</p>
+                        <a href="https://weyway.com/occult-crescent/" class="readmore feed__readmore">
                            Continue reading...</a>
                   </div>
                </article>
@@ -426,7 +477,7 @@
     </div>
 </footer>
 
-<script defer src="https://weyway.com/assets/js/scripts.min.js?v=700105c316933a8202041b6415abb233"></script>
+<script defer src="https://weyway.com/assets/js/scripts.min.js?v=27f7a9b8d323ac5ff30bb6e7568604a9"></script>
 
 <script>window.publiiThemeMenuConfig={mobileMenuMode:'sidebar',animationSpeed:300,submenuWidth: 'auto',doubleClickTime:500,mobileMenuExpandableSubmenus:true,relatedContainerForOverlayMenuSelector:'.top'};</script>
 
@@ -558,6 +609,8 @@ zoomSVG: `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-line
     </script>
 
 <script src="https://weyway.com/assets/js/leaflet.js" defer></script>
+<script src="https://weyway.com/assets/js/leaflet.groupedlayercontrol.min.js" defer></script>
+<script src="https://weyway.com/assets/js/leaflet-gesture-handling.min.js" defer></script>
 <script src="https://weyway.com/assets/js/map-init.js" defer></script>
 </body>
 </html>
