@@ -228,13 +228,16 @@ if (Array.isArray(config.layerGroups) && config.layerGroups.length > 0) {
 }
 
 // 8) LAYER MENU TOGGLE BUTTON (optional)
-const controlContainer = document.querySelector('.leaflet-control-layers');
+const controlContainer = mapEl.querySelector('.leaflet-control-layers');
 if (controlContainer) {
     controlContainer.classList.add('leaflet-layer-control');
 
     const toggleBtn = L.DomUtil.create('button', 'layer-toggle-btn');
     toggleBtn.innerText = 'Layers';
-    toggleBtn.onclick = () => controlContainer.classList.toggle('open');
+    L.DomEvent.on(toggleBtn, 'click touchstart', (e) => {
+    L.DomEvent.stopPropagation(e);
+    controlContainer.classList.toggle('open');
+});
     mapEl.appendChild(toggleBtn);
 
     controlContainer.querySelectorAll('a').forEach(link => {
