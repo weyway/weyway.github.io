@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // LEAFLET DRAW
 
-/*     // Add FeatureGroup to hold drawn items
+    // Add FeatureGroup to hold drawn items
         const drawnItems = new L.FeatureGroup();
         map.addLayer(drawnItems);
 
@@ -83,11 +83,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const drawControl = new L.Control.Draw({
         edit: {
             featureGroup: drawnItems,
-            edit: true,
-            remove: true
+            edit: false,
+            remove: false
         },
         draw: {
-            polygon: true,
+            polygon: false,
             polyline: false,
             rectangle: false,
             circle: false,
@@ -110,7 +110,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const coords = latlngs.map(({lat, lng}) => [lng, maxY + minY - lat]);
 
         console.log('Polygon coords in map coordinates:', coords);
-        }); */
+        });
 
 
         // 4) LAYER GROUPS + SUBGROUPS + MARKERS
