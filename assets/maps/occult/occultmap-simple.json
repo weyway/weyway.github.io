@@ -1,14 +1,5 @@
 {
-    "bounds": [
-        [
-            1,
-            1
-        ],
-        [
-            5,
-            42
-        ]
-    ],
+    "bounds": [[1,1],[5,42]],
     "baseLayers": [
         {
             "name": "Occult",
