@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
             doubleClickZoom: false,
             gestureHandling: true,
             minZoom: 3,
-            maxZoom: 10,
+            maxZoom: 6,
             zoomSnap: 1,
             zoomDelta: 1,
             zoom: 4,
@@ -115,8 +115,8 @@ const polygon = L.polygon(correctedCoords, {
         const drawControl = new L.Control.Draw({
         edit: {
             featureGroup: drawnItems,
-            edit: true,
-            remove: true
+            edit: false,
+            remove: false
         },
         draw: {
             polygon: true,
