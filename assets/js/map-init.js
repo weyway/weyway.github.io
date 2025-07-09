@@ -105,7 +105,7 @@ const polygon = L.polygon(correctedCoords, {
     }
     });
 
-    // LEAFLET DRAW
+/*     // LEAFLET DRAW
 
     // Add FeatureGroup to hold drawn items
         const drawnItems = new L.FeatureGroup();
@@ -142,7 +142,7 @@ const polygon = L.polygon(correctedCoords, {
         const coords = latlngs.map(({lat, lng}) => [lng, maxY + minY - lat]);
 
         console.log('Polygon coords in map coordinates:', coords);
-        });
+        }); */
 
 
         // 4) LAYER GROUPS + SUBGROUPS + MARKERS
