@@ -86,7 +86,7 @@ const polygon = L.polygon(correctedCoords, {
                 .setContent(piece.text)
                 .setLatLng([lat, lng]);
 
-                map.addLayer(tooltip);
+                tooltip.addTo(overlayGroup);
             } else {
                 polygon.bindTooltip(piece.text, {
                     permanent: true,
