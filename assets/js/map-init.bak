@@ -49,51 +49,19 @@ document.addEventListener("DOMContentLoaded", () => {
         // Remove filtering by enabled here for testing
         // if (!piece.enabled) return;
 
-        let correctedCoords;
+        const correctedCoords = piece.polycoords.map(([x, y]) => [maxY + minY - y, x]);
 
-        if (Array.isArray(piece.polycoords[0][0])) {
-            // Donut polygon (multiple rings: first is outer, rest are holes)
-            correctedCoords = piece.polycoords.map(ring =>
-                ring.map(([x, y]) => [maxY + minY - y, x])
-            );
-            console.log("Donut polygon:", correctedCoords);
-        } else {
-            // Simple polygon
-            correctedCoords = piece.polycoords.map(([x, y]) => [maxY + minY - y, x]);
-            console.log("Simple polygon:", correctedCoords);
-        }
+        console.log("Polygon color:", piece.color, "Coords:", correctedCoords);
 
-const polygon = L.polygon(correctedCoords, {
-    color: piece.color || '#FFFFFF',
-    fillColor: piece.color || '#FFFFFF',
-    weight: 2,
-    fillOpacity: 0.4
-});
-
+        const polygon = L.polygon(correctedCoords, {
+        color: piece.color || '#FFFFFF',
+        fillColor: piece.color || '#FFFFFF',
+        weight: 2,
+        fillOpacity: 0.4
+        });
 
         if (piece.popup) polygon.bindPopup(piece.popup);
-        if (piece.text) {
-            if (piece.tooltipPos) {
-                const [x, y] = piece.tooltipPos;
-                const lat = maxY + minY - y;
-                const lng = x;
-
-                const tooltip = L.tooltip({
-                    permanent: true,
-                    direction: 'top',
-                    className: 'custom-polygon-label'
-                })
-                .setContent(piece.text)
-                .setLatLng([lat, lng]);
-
-                map.addLayer(tooltip);
-            } else {
-                polygon.bindTooltip(piece.text, {
-                    permanent: true,
-                    direction: 'top'
-                });
-            }
-        }
+        if (piece.text) polygon.bindTooltip(piece.text, { permanent: true, direction: 'top' });
 
         overlayGroup.addLayer(polygon);
     });
