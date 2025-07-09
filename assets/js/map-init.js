@@ -119,10 +119,10 @@ const polygon = L.polygon(correctedCoords, {
             remove: false
         },
         draw: {
-            polygon: true,
+            polygon: false,
             polyline: false,
             rectangle: false,
-            circle: true,
+            circle: false,
             marker: false,
             circlemarker: false
         }
