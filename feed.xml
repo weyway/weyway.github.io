@@ -3,12 +3,510 @@
     <title>Weyway ♡</title>
     <link href="https://weyway.com/feed.xml" rel="self" />
     <link href="https://weyway.com" />
-    <updated>2025-07-17T02:05:41+01:00</updated>
+    <updated>2025-07-20T21:34:43+01:00</updated>
     <author>
         <name>W&#x27;eylyn Mavourneen</name>
     </author>
     <id>https://weyway.com</id>
 
+    <entry>
+        <title>The Sil&#x27;dihn Subterrane</title>
+        <author>
+            <name>W&#x27;eylyn Mavourneen</name>
+        </author>
+        <link href="https://weyway.com/the-sildihn-subterrane/"/>
+        <id>https://weyway.com/the-sildihn-subterrane/</id>
+        <media:content url="https://weyway.com/media/posts/23/The_Sildihn_Subterrane1.jpg" medium="image" />
+            <category term="PVE"/>
+            <category term="Guide"/>
+            <category term="FFXIV"/>
+            <category term="Dungeon"/>
+
+        <updated>2025-07-20T18:20:31+01:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://weyway.com/media/posts/23/The_Sildihn_Subterrane1.jpg" alt="" />
+                    An extensive warren of tunnels and waterways stretches beneath the barren lands of Thanalan, but none come now to marvel at this remnant of fallen Sil'dih. Its memories lie undisturbed, festering silently in the dark and the damp. Yet not for much longer. You have&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://weyway.com/media/posts/23/The_Sildihn_Subterrane1.jpg" class="type:primaryImage" alt="" /></p>
+                <section id="intro">
+<blockquote>
+<p class="align-left">An extensive warren of tunnels and waterways stretches beneath the barren lands of Thanalan, but none come now to marvel at this remnant of fallen Sil'dih. Its memories lie undisturbed, festering silently in the dark and the damp. Yet not for much longer. You have come at the personal behest of Nanamo Ul Namo, and together will you throw open the gate to the desert nation's troubled past.</p>
+<p class="align-right">- In-game description</p>
+</blockquote>
+<h2>General Info</h2>
+<table style="border-collapse: collapse; border-style: solid;">
+<tbody>
+<tr style="border-style: none;">
+<td class="align-right" style="border-style: none;"><strong>Name</strong></td>
+<td style="border-style: none;">The Sil'dihn Subterrane</td>
+</tr>
+<tr style="border-style: none;">
+<td class="align-right" style="border-style: none;"><strong>Level</strong></td>
+<td style="border-style: none;">90</td>
+</tr>
+<tr style="border-style: none;">
+<td class="align-right" style="border-style: none;"><strong>Item Level</strong></td>
+<td style="border-style: none;">575 (Sync: 635)</td>
+</tr>
+<tr style="border-style: none;">
+<td class="align-right" style="border-style: none;"><strong>Difficulty</strong></td>
+<td style="border-style: none;">Normal</td>
+</tr>
+<tr style="border-style: none;">
+<td class="align-right" style="border-style: none;"><strong>Party Size</strong></td>
+<td style="border-style: none;">Flexible (1-4 people no role restrictions)</td>
+</tr>
+<tr style="border-style: none;">
+<td class="align-right" style="border-style: none;"><strong>Unsync</strong></td>
+<td style="border-style: none;">Not Allowed</td>
+</tr>
+<tr style="border-style: none;">
+<td class="align-right" style="border-style: none;"><strong>Time Limit</strong></td>
+<td style="border-style: none;">90 Minutes</td>
+</tr>
+<tr style="border-style: none;">
+<td class="align-right" style="border-style: none;"><strong>Duty Finder</strong></td>
+<td style="border-style: none;">V&amp;C Dungeon Finder</td>
+</tr>
+<tr style="border-style: none;">
+<td class="align-right" style="border-style: none;"><strong>Tomestone rewards</strong></td>
+<td style="border-style: none;"><a href="https://ffxiv.consolegameswiki.com/wiki/Allagan_Tomestone_of_Poetics" title="Allagan Tomestone of Poetics"><img loading="lazy" src="https://ffxiv.consolegameswiki.com/mediawiki/images/thumb/9/92/Allagan_Tomestone_of_Poetics.png/20px-Allagan_Tomestone_of_Poetics.png" srcset="/mediawiki/images/thumb/9/92/Allagan_Tomestone_of_Poetics.png/30px-Allagan_Tomestone_of_Poetics.png 1.5x, /mediawiki/images/thumb/9/92/Allagan_Tomestone_of_Poetics.png/40px-Allagan_Tomestone_of_Poetics.png 2x" alt="Allagan Tomestone of Poetics" width="20" height="20" data-is-external-image="true"></a> 15</td>
+</tr>
+<tr style="border-style: none;">
+<td class="align-right" style="border-style: none;"><strong>Entrance</strong></td>
+<td style="border-style: none;"><a href="https://ffxiv.consolegameswiki.com/wiki/Central_Thanalan" title="Central Thanalan">Central Thanalan</a> (<strong><small>X:</small></strong>16.8, <strong><small>Y:</small></strong>23.6)</td>
+</tr>
+<tr style="border-style: none;">
+<td class="align-right" style="border-style: none;"><strong>Patch</strong></td>
+<td style="border-style: none;">6.25</td>
+</tr>
+</tbody>
+</table>
+<h3>Unlock</h3>
+<p>There's a pre-quest with no steps that serves to unlock the <strong>Variant and Criterion Dungeons</strong>, you will have to complete it once and any future content of this type will not require it again.<br>This quest is called <a href="https://ffxiv.consolegameswiki.com/wiki/An_Odd_Job" target="_blank" rel="noopener noreferrer">An Odd Job</a> which you an get from <strong>Osmon</strong> at <a href="https://ffxiv.consolegameswiki.com/wiki/Old_Sharlayan" target="_blank" rel="noopener noreferrer">Old Sharlayan</a> (X:12, Y:13.4)</p>
+<p>To unlock this Variant Dungeon you must complete the associated quests starting on <a href="https://ffxiv.consolegameswiki.com/wiki/A_Key_to_the_Past" target="_blank" rel="noopener noreferrer">A Key to The Past</a>.</p>
+</section>
+<hr>
+<section id="records">
+<h2>Survey Records</h2>
+<p>Each survey is gained by completing one of the twelve endings.</p>
+<p>These are split by three paths that you must choose.</p>
+<article id="records-left">
+<h3>Left Path</h3>
+<h4>Survey 1: Whom the Silkie Serves</h4>
+<ul>
+<li>At the room with two pedestals that has sacks laying around the room:
+<ul>
+<li>Pick the blue/green sack that is next to the door on the right side.</li>
+<li>Then pick the yellow sack that is on the south-east corner (looking at the door) right on the corner of the room.</li>
+</ul>
+</li>
+<li>After going through the teleporter and killing the mobs, <strong>don't follow Nanamo</strong> to the gate, instead look to the left, behind a pile of rubble there's a hidden door, go to it and find the <strong>Ewer</strong>, use it then join Nanamo.</li>
+</ul>
+<h4>Survey 2: Pride and Acceptance</h4>
+<ul>
+<li>At the room with two pedestals that has sacks laying around the room:
+<ul>
+<li>Pick the blue/green sack that is next to the door on the right side.</li>
+<li>Then pick the yellow sack that is on the south-east corner (looking at the door) right on the corner of the room.</li>
+</ul>
+</li>
+<li>After going through the teleporter and killing the mobs, <strong>follow Nanamo</strong> to the gate and <strong>ignore the door on the left</strong>.</li>
+</ul>
+<h4>Survey 3: A Spot in the Sunlight</h4>
+<ul>
+<li>At the room with two pedestals that has sacks laying around the room:
+<ul>
+<li>Pick any sacks that <strong>are not</strong> the correct choices (the one to the right of the door and the one on the south-east corner).</li>
+</ul>
+</li>
+<li>After going through the door, <strong>run through all the cotton puffs</strong>.</li>
+</ul>
+<h4>Survey 4: A Key Memory</h4>
+<ul>
+<li>At the room with two pedestals that has sacks laying around the room:
+<ul>
+<li>Pick any sacks that <strong>are not</strong> the correct choices (the one to the right of the door and the one on the south-east corner).</li>
+</ul>
+</li>
+<li>After going through the door, <strong>avoid all the cotton puffs</strong>.</li>
+</ul>
+</article>
+<article id="records-mid">
+<h3>Middle Path</h3>
+<h4>Survey 8: Ul'dah and Sil'dih</h4>
+<ul>
+<li>Arrive at the room with the scales and levers:
+<ul>
+<li><strong>Ignore the scales.</strong></li>
+<li>Activate the <strong>right lever</strong>.</li>
+</ul>
+</li>
+</ul>
+<h4>Survey 9: Raising the Flag</h4>
+<ul>
+<li>Arrive at the room with the scales and levers:
+<ul>
+<li><strong>Ignore the scales.</strong></li>
+<li>Activate the <strong>left lever</strong>.</li>
+</ul>
+</li>
+</ul>
+<h4>Survey 10: My Mother's Eyes</h4>
+<ul>
+<li>Arrive at the room with the scales and levers:
+<ul>
+<li>Place the <strong>helmet</strong> on the <strong>left scale</strong>.</li>
+<li>Place the <strong>fruit</strong> on the <strong>right scale</strong>.</li>
+</ul>
+</li>
+<li>Go to the statues and interact with the <strong>Statue of Nald</strong>.</li>
+</ul>
+<h4>Survey 11: The Thorne Legacy</h4>
+<ul>
+<li>Arrive at the room with the scales and levers:
+<ul>
+<li>Place the <strong>helmet</strong> on the <strong>left scale</strong>.</li>
+<li>Place the <strong>fruit</strong> on the <strong>right scale</strong>.</li>
+</ul>
+</li>
+<li>Go to the statues and interact with the <strong>Statue of Thal</strong>.</li>
+</ul>
+</article>
+<article id="records-right">
+<h3>Right Path</h3>
+<h4>Survey 5: In Father's Stead</h4>
+<ul>
+<li>Defeat the first boss.</li>
+<li>Arrive at the lifts:
+<ul>
+<li><strong>Take the left lift.</strong></li>
+</ul>
+</li>
+<li>Arrive at the mysterious door:
+<ul>
+<li>Select <strong>"The blessed spark"</strong> at the door.</li>
+</ul>
+</li>
+</ul>
+<h4>Survey 6: Ul'dah's Sin to Bear</h4>
+<ul>
+<li>Defeat the first boss.</li>
+<li>Arrive at the lifts:
+<ul>
+<li>Take the <strong>left</strong> lift.</li>
+</ul>
+</li>
+<li>Arrive at the mysterious door:
+<ul>
+<li>Select <strong>"The sacred fire"</strong> at the door.</li>
+</ul>
+</li>
+</ul>
+<h4>Survey 7: To Learn More of Myrrh</h4>
+<ul>
+<li>Defeat the first boss.</li>
+<li>Arrive at the lifts:
+<ul>
+<li>Take the <strong>right</strong> lift.</li>
+</ul>
+</li>
+<li>Arrive at the pack of drakes and kill them<strong> in order from largest to smallest</strong>:
+<ol>
+<li>Drakefather</li>
+<li>Drakemother</li>
+<li>Drakebrother</li>
+<li>Drakesister</li>
+<li>Drakeling</li>
+</ol>
+</li>
+<li>After the wraiths, interact with the <strong>Myrrh Incense Burner</strong> on the right side of the room.</li>
+<li><strong>Interact directly </strong>with the sarcophagus at the end.</li>
+</ul>
+<h4>Survey 12: In Parchment We Trust</h4>
+<ul>
+<li>Defeat the first boss.</li>
+<li>Arrive at the lifts:
+<ul>
+<li>Take the <strong>right</strong> lift.</li>
+</ul>
+</li>
+<li>Arrive at the pack of drakes and kill them<strong> in order from largest to smallest</strong>:
+<ol>
+<li>Drakefather</li>
+<li>Drakemother</li>
+<li>Drakebrother</li>
+<li>Drakesister</li>
+<li>Drakeling</li>
+</ol>
+</li>
+<li>After the wraiths, interact with the <strong>Myrrh Incense Burner</strong> on the right side of the room.</li>
+<li><strong>Do not interact</strong> with the sarcophagus,<strong> </strong>instead, just <strong>select it </strong>and do these emotes in order:
+<ol>
+<li>/bow</li>
+<li>/respect</li>
+<li>/vpose</li>
+<li>/kneel</li>
+</ol>
+</li>
+<li>Now you can interact with the sarcophagus.</li>
+</ul>
+</article>
+</section>
+<hr>
+<section id="rewards">
+<h2>Rewards</h2>
+<article id="bossloot">
+<h3>Personal Loot</h3>
+<h4>Geryon the Steer</h4>
+<table class="align-center" style="border-collapse: collapse; width: 100%; height: 97.125px; border-style: none;" border="0.5">
+<thead>
+<tr style="border-style: dotted; border-width: 0.5px;">
+<th class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Name</th>
+<th class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-style: dotted; border-width: 0.5px;">
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Sil'dihn Potsherd</td>
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">1</td>
+</tr>
+</tbody>
+</table>
+<h4>Silkie</h4>
+<table class="align-center" style="border-collapse: collapse; width: 100%; height: 97.125px; border-style: none;" border="0.5">
+<thead>
+<tr style="border-style: dotted; border-width: 0.5px;">
+<th class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Name</th>
+<th class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-style: dotted; border-width: 0.5px;">
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Sil'dihn Potsherd</td>
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">2</td>
+</tr>
+</tbody>
+</table>
+<h4>Gladiator of Sil'dih</h4>
+<table class="align-center" style="border-collapse: collapse; width: 100%; height: 97.125px; border-style: none;" border="0.5">
+<thead>
+<tr style="border-style: dotted; border-width: 0.5px;">
+<th class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Name</th>
+<th class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-style: dotted; border-width: 0.5px;">
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Sil'dihn Potsherd</td>
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">2</td>
+</tr>
+<tr>
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Gladiator of Sil'dih Card</td>
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">1</td>
+</tr>
+</tbody>
+</table>
+<h4>Shadowcaster Zeless Gah</h4>
+<table class="align-center" style="border-collapse: collapse; width: 100%; height: 97.125px; border-style: none;" border="0.5">
+<thead>
+<tr style="border-style: dotted; border-width: 0.5px;">
+<th class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Name</th>
+<th class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-style: dotted; border-width: 0.5px;">
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Sil'dihn Potsherd</td>
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">2</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px;">
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Shadowcaster Zeless Gah Card</td>
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">1</td>
+</tr>
+</tbody>
+</table>
+<h4>Thorne Knight</h4>
+<table class="align-center" style="border-collapse: collapse; width: 100%; height: 97.125px; border-style: none;" border="0.5">
+<thead>
+<tr style="border-style: dotted; border-width: 0.5px;">
+<th class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Name</th>
+<th class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-style: dotted; border-width: 0.5px;">
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Sil'dihn Potsherd</td>
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">2</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px;">
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Thorne Knight Card</td>
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">1</td>
+</tr>
+</tbody>
+</table>
+</article>
+<article id="treasurecoffers">
+<h3>Treasure Coffers</h3>
+<table class="align-center" style="border-collapse: collapse; width: 100%; height: 384px; border-style: none;" border="0.5">
+<thead>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<th class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Name</th>
+<th class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Deceiver's Diamonds</td>
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">1</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">Sewer Skink</td>
+<td class="align-center" style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.5625px;">1</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.0625px;">Sponge Silkie</td>
+<td style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 48.0625px;">1</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 47.5625px;">Sil'dihn Chair</td>
+<td style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 47.5625px;">1</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 47.5625px;">Sil'dihn Side Table</td>
+<td style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 47.5625px;">1</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 47.5625px;">Sabotender Parasol</td>
+<td style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 47.5625px;">1</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 47.5625px;">Sil'dihn Kitchen Shelf</td>
+<td style="width: 49.9288%; border-style: none; border-width: 0.5px; height: 47.5625px;">1</td>
+</tr>
+</tbody>
+</table>
+</article>
+<article id="mount">
+<h3>Mount</h3>
+<p>Completing all 12 paths unlocks the <strong>Silkie Whistle</strong>.</p>
+<figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/23/silkie.jpg" alt="" width="1920" height="1080" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/23/responsive/silkie-xs.jpg 640w ,https://weyway.com/media/posts/23/responsive/silkie-sm.jpg 768w ,https://weyway.com/media/posts/23/responsive/silkie-md.jpg 1024w ,https://weyway.com/media/posts/23/responsive/silkie-lg.jpg 1366w ,https://weyway.com/media/posts/23/responsive/silkie-xl.jpg 1600w ,https://weyway.com/media/posts/23/responsive/silkie-2xl.jpg 1920w"></figure>
+</article>
+<article id="potsherd-rewards">
+<h3>Sil'dihn Potsherd Rewards</h3>
+<table class="align-center" style="border-collapse: collapse; width: 100%; height: 384px; border-style: none;" border="0.5">
+<thead>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<th class="align-center" style="width: 25.1788%; border-style: none; border-width: 0.5px; height: 48.5625px;">Name</th>
+<th style="width: 25.1788%; border-style: none; border-width: 0.5px;">Type</th>
+<th class="align-center" style="width: 50.0715%; border-style: none; border-width: 0.5px; height: 48.5625px;">Cost (Sil'dihn Potsherd)</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td class="align-center" style="width: 25.1788%; border-style: none; border-width: 0.5px; height: 48.5625px;">Noir Hat</td>
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px;">Glamour</td>
+<td class="align-center" style="width: 50.0715%; border-style: none; border-width: 0.5px; height: 48.5625px;">15</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td class="align-center" style="width: 25.1788%; border-style: none; border-width: 0.5px; height: 48.5625px;">Noir Longcoat</td>
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px;">Glamour</td>
+<td class="align-center" style="width: 50.0715%; border-style: none; border-width: 0.5px; height: 48.5625px;">27</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px; height: 48.0625px;">Noir Leather Gloves</td>
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px;">Glamour</td>
+<td style="width: 50.0715%; border-style: none; border-width: 0.5px; height: 48.0625px;">9</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px; height: 47.5625px;">Noir Slacks</td>
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px;">Glamour</td>
+<td style="width: 50.0715%; border-style: none; border-width: 0.5px; height: 47.5625px;">12</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px; height: 47.5625px;">Noir Shoes</td>
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px;">Glamour</td>
+<td style="width: 50.0715%; border-style: none; border-width: 0.5px; height: 47.5625px;">9</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px; height: 47.5625px;">Sil'dihn Earring</td>
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px;">Glamour</td>
+<td style="width: 50.0715%; border-style: none; border-width: 0.5px; height: 47.5625px;">3</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px; height: 47.5625px;">Ballroom Etiquette - Ample Appreciation</td>
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px;">Emote</td>
+<td style="width: 50.0715%; border-style: none; border-width: 0.5px; height: 47.5625px;">9</td>
+</tr>
+</tbody>
+</table>
+<div class="gallery-wrapper"><div class="gallery"  data-is-empty="false" data-translation="Add images" data-columns="2">
+<figure class="gallery__item"><a href="https://weyway.com/media/posts/23/gallery/Noir_Glamour_Set_img1.png" data-size="530x298"><img loading="lazy" src="https://weyway.com/media/posts/23/gallery/Noir_Glamour_Set_img1-thumbnail.png" alt="" width="530" height="298"></a></figure>
+<figure class="gallery__item"><a href="https://weyway.com/media/posts/23/gallery/Noir_Glamour_Set_img2.png" data-size="530x298"><img loading="lazy" src="https://weyway.com/media/posts/23/gallery/Noir_Glamour_Set_img2-thumbnail.png" alt="" width="530" height="298"></a></figure>
+</div></div>
+</article>
+</section>
+<hr>
+<section id="achievements">
+<h3>Achievements</h3>
+<table class="align-center" style="border-collapse: collapse; width: 100%; height: 384px; border-style: none;" border="0.5">
+<thead>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<th class="align-center" style="width: 25.1788%; border-style: none; border-width: 0.5px; height: 48.5625px;">Name</th>
+<th style="width: 25.1788%; border-style: none; border-width: 0.5px;">Points</th>
+<th class="align-center" style="width: 50.0715%; border-style: none; border-width: 0.5px; height: 48.5625px;">Task</th>
+</tr>
+</thead>
+<tbody>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td class="align-center" style="width: 25.1788%; border-style: none; border-width: 0.5px; height: 48.5625px;">Squeaky Clean</td>
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px;">5</td>
+<td class="align-center" style="width: 50.0715%; border-style: none; border-width: 0.5px; height: 48.5625px;">Defeat the silkie in the Sil'dihn Subterrane variant dungeon.</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td class="align-center" style="width: 25.1788%; border-style: none; border-width: 0.5px; height: 48.5625px;">Shadows' Past</td>
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px;">5</td>
+<td class="align-center" style="width: 50.0715%; border-style: none; border-width: 0.5px; height: 48.5625px;">Defeat Shadowcaster Zeless Gah in the Sil'dihn Subterrane variant dungeon.</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px; height: 48.0625px;">Hollow Victory</td>
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px;">5</td>
+<td style="width: 50.0715%; border-style: none; border-width: 0.5px; height: 48.0625px;">Defeat the gladiator of Sil'dih in the Sil'dihn Subterrane variant dungeon.</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px; height: 47.5625px;">Secrets of Sil'dih</td>
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px;">5</td>
+<td style="width: 50.0715%; border-style: none; border-width: 0.5px; height: 47.5625px;">Defeat the Thorne Knight in the Sil'dihn Subterrane variant dungeon.</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px; height: 47.5625px;">Mapping the Realm: The Sil'dihn Subterrane</td>
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px;">10</td>
+<td style="width: 50.0715%; border-style: none; border-width: 0.5px; height: 47.5625px;">Discover every location within the Sil'dihn Subterrane variant dungeon.</td>
+</tr>
+<tr style="border-style: dotted; border-width: 0.5px; height: 48.5625px;">
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px; height: 47.5625px;">Sil'dihn Subterrane</td>
+<td style="width: 25.1788%; border-style: none; border-width: 0.5px;">10</td>
+<td style="width: 50.0715%; border-style: none; border-width: 0.5px; height: 47.5625px;">Unlock all survey records in the Sil'dihn Subterrane. <strong>Rewards the Silkie Whistle.</strong></td>
+</tr>
+</tbody>
+</table>
+</section>
+<hr>
+<section id="credits">
+<h6>Data collected from</h6>
+<ul>
+<li>In-game support material</li>
+<li>finalfantasy.fandom.com</li>
+<li>ffxiv.consolegameswiki.com</li>
+</ul>
+</section>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Producer&#x27;s Live Letter 87</title>
         <author>
