@@ -3,7 +3,7 @@
     <title>Weyway ♡</title>
     <link href="https://weyway.com/feed.xml" rel="self" />
     <link href="https://weyway.com" />
-    <updated>2025-09-12T02:31:28+01:00</updated>
+    <updated>2025-09-12T02:39:11+01:00</updated>
     <author>
         <name>W&#x27;eylyn Mavourneen</name>
     </author>
@@ -3418,26 +3418,12 @@
 <p>As you see above, the array features 4 different types of aether gauges. To complete this quest, you must get each of them up to 10000 aether charge.</p>
 <p>The process to charge these just requires you to engage daily with the Duty Roulette system.</p>
 <p>Each type of aether will come from a different roulette, as such:</p>
-<table style="border-collapse: collapse; width: 100%; border-style: none;" border="1">
-<tbody>
-<tr>
-<td style="width: 9.70652%; border-style: none;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/21/30px-EurekaWind.png" alt="" width="30" height="30" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/21/responsive/30px-EurekaWind-xs.png 640w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWind-sm.png 768w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWind-md.png 1024w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWind-lg.png 1366w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWind-xl.png 1600w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWind-2xl.png 1920w"></figure></td>
-<td style="width: 90.2935%; border-style: none;">High-level Dungeons</td>
-</tr>
-<tr>
-<td style="width: 9.70652%; border-style: none;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/21/30px-EurekaWater.png" alt="" width="30" height="30" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/21/responsive/30px-EurekaWater-xs.png 640w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWater-sm.png 768w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWater-md.png 1024w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWater-lg.png 1366w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWater-xl.png 1600w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWater-2xl.png 1920w"></figure></td>
-<td style="width: 90.2935%; border-style: none;">Alliance Raids</td>
-</tr>
-<tr>
-<td style="width: 9.70652%; border-style: none;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/21/30px-EurekaFire.png" alt="" width="30" height="30" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/21/responsive/30px-EurekaFire-xs.png 640w ,https://weyway.com/media/posts/21/responsive/30px-EurekaFire-sm.png 768w ,https://weyway.com/media/posts/21/responsive/30px-EurekaFire-md.png 1024w ,https://weyway.com/media/posts/21/responsive/30px-EurekaFire-lg.png 1366w ,https://weyway.com/media/posts/21/responsive/30px-EurekaFire-xl.png 1600w ,https://weyway.com/media/posts/21/responsive/30px-EurekaFire-2xl.png 1920w"></figure></td>
-<td style="width: 90.2935%; border-style: none;">Trials</td>
-</tr>
-<tr>
-<td style="width: 9.70652%; border-style: none;"><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/21/30px-EurekaEarth.png" alt="" width="30" height="30" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/21/responsive/30px-EurekaEarth-xs.png 640w ,https://weyway.com/media/posts/21/responsive/30px-EurekaEarth-sm.png 768w ,https://weyway.com/media/posts/21/responsive/30px-EurekaEarth-md.png 1024w ,https://weyway.com/media/posts/21/responsive/30px-EurekaEarth-lg.png 1366w ,https://weyway.com/media/posts/21/responsive/30px-EurekaEarth-xl.png 1600w ,https://weyway.com/media/posts/21/responsive/30px-EurekaEarth-2xl.png 1920w"></figure></td>
-<td style="width: 90.2935%; border-style: none;">Normal Raids</td>
-</tr>
-</tbody>
-</table>
+<ul>
+<li><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/21/30px-EurekaWind.png" alt="" width="30" height="30" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/21/responsive/30px-EurekaWind-xs.png 640w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWind-sm.png 768w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWind-md.png 1024w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWind-lg.png 1366w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWind-xl.png 1600w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWind-2xl.png 1920w"></figure>High-level Dungeons</li>
+<li><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/21/30px-EurekaWater.png" alt="" width="30" height="30" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/21/responsive/30px-EurekaWater-xs.png 640w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWater-sm.png 768w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWater-md.png 1024w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWater-lg.png 1366w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWater-xl.png 1600w ,https://weyway.com/media/posts/21/responsive/30px-EurekaWater-2xl.png 1920w"></figure>Alliance Raids</li>
+<li><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/21/30px-EurekaFire.png" alt="" width="30" height="30" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/21/responsive/30px-EurekaFire-xs.png 640w ,https://weyway.com/media/posts/21/responsive/30px-EurekaFire-sm.png 768w ,https://weyway.com/media/posts/21/responsive/30px-EurekaFire-md.png 1024w ,https://weyway.com/media/posts/21/responsive/30px-EurekaFire-lg.png 1366w ,https://weyway.com/media/posts/21/responsive/30px-EurekaFire-xl.png 1600w ,https://weyway.com/media/posts/21/responsive/30px-EurekaFire-2xl.png 1920w"></figure>Trials</li>
+<li><figure class="post__image"><img loading="lazy"  src="https://weyway.com/media/posts/21/30px-EurekaEarth.png" alt="" width="30" height="30" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://weyway.com/media/posts/21/responsive/30px-EurekaEarth-xs.png 640w ,https://weyway.com/media/posts/21/responsive/30px-EurekaEarth-sm.png 768w ,https://weyway.com/media/posts/21/responsive/30px-EurekaEarth-md.png 1024w ,https://weyway.com/media/posts/21/responsive/30px-EurekaEarth-lg.png 1366w ,https://weyway.com/media/posts/21/responsive/30px-EurekaEarth-xl.png 1600w ,https://weyway.com/media/posts/21/responsive/30px-EurekaEarth-2xl.png 1920w"></figure>Normal Raids</li>
+</ul>
 <p>The first clear of the day on each of these roulettes will give you a bonus. While you can definitely no-life this, the incentive leans more into the "do it slow and steady" route, so feel free to take your time, this is not a race.</p>
 <p class="msg msg--success"><strong>Tip!<br></strong><br>To do the roulettes, you <strong>don't need</strong> to be using the relic or even the same job that you've started the quest with, so feel free to select other jobs you're levelling still, or even get double the rewards by selecting a "Adventurer in Need" job to get the extra gil and clusters!</p>
 </article>
